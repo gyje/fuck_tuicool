@@ -1,0 +1,18 @@
+{
+   "author": "YingJieGoUP",
+   "content_scripts": [ {
+      "js": [ "fuck_tuicool.js" ],
+      "matches": [ "*://*.tuicool.com/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "操推酷,去掉推酷网的小尾巴",
+   "homepage_url": "https://github.com/paicha/zhihu-undirect",
+   "icons": {
+      "128": "1.png",
+      "16": "1.png",
+      "48": "1.png"
+   },
+   "manifest_version": 2,
+   "name": "fuck_tuicool",
+   "version": "1.1.1"
+}
